@@ -1,0 +1,26 @@
+.results-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 40px 20px;
+  padding: 40px 60px;
+  background: $white;
+}
+
+.results-sentence {
+  display: flex;
+  align-items: center;
+}
+
+.results {
+  margin-right: 7px;
+  font-size: 20px;
+}
+.button--randomizr {
+  height: 60px;
+  padding: 0 20px;
+  font-size: 20px;
+  background: $white;
+  border: 2px solid black;
+  margin-left: 100px;
+}

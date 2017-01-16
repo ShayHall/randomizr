@@ -1,0 +1,27 @@
+@import '../../../node_modules/@console/bluemix-components/consumables/scss/styles';
+
+
+$black: #000;
+$white: #fff;
+$randomizr-button: #c162f9;
+$add-button: #232ab6;
+$remove-button: #9b34a4;
+
+.header {
+  width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  padding: 20px 100px 10px;
+}
+
+.button {
+  box-sizing: border-box;
+  height: 30px;
+  padding: 0 15px;
+  border: 0;
+}
+
+@import 'generator';
+@import 'results';
